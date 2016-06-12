@@ -17,5 +17,5 @@ export = () => {
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.typescript(tscProject))
         .pipe(plugins.sourcemaps.write())
-        .pipe(gulp.dest('dist/lib'));
+        .pipe(gulp.dest('dist'));
 }

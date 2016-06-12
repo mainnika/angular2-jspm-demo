@@ -3,14 +3,11 @@ html
         title Demo
         meta(charset = 'UTF-8')
 
-        link(rel='stylesheet' href='styles.css')
+        //- link(rel='stylesheet' href='styles.css')
 
-        //- script(src='node_modules/core-js/client/shim.min.js')
-        //- script(src='node_modules/zone.js/dist/zone.min.js')
-        script(src='node_modules/systemjs/dist/system.js')
-        //- script(src='node_modules/reflect-metadata/Reflect.js')
-        script(src='lib/systemjs.config.js')
-        script(src='lib/starter.js')
+        script(src='jspm_packages/system.js')
+        script(src='config.js')
+        script(src='starter.js')
 
     body
         my-app Loading...
