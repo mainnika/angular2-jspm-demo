@@ -21,16 +21,5 @@
                 "npm/rxjs@5.0.0-beta.6/*"
             ]
         }
-    },
-    "filesGlob": [
-        "typings/index.d.ts",
-        "lib/**/*.ts"
-    ],
-    "files": [
-        "typings/index.d.ts",
-        "lib/app.component.ts",
-        "lib/index.ts",
-        "lib/starter.ts",
-        "lib/systemjs.config.ts"
-    ]
+    }
 }
